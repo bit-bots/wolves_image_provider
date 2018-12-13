@@ -1,0 +1,33 @@
+<package>
+  <name>wolves_image_provider_v4l</name>
+  <version>1.0.0</version>
+  <description>The wolves_image_provider_v4l package, camera calibrations are placed in the config folder and need to be specified in the camera_settings.yaml (camera_name) configuration file.</description>
+
+  <maintainer email="5guelden@informatik.uni-hamburg.de">Jasper Güldenstein</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>opencv2</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>camera_info_manager</build_depend>
+
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>opencv2</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>camera_info_manager</run_depend>
+
+  <export>
+    <bitbots_documentation>
+      <language>c++</language>
+      <status>stable</status>
+    </bitbots_documentation>
+  </export>
+</package>
