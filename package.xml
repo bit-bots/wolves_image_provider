@@ -19,7 +19,7 @@
   <export>
     <bitbots_documentation>
       <language>c++</language>
-      <status>stable</status>
+      <status>unknown</status>
     </bitbots_documentation>
   </export>
 </package>
