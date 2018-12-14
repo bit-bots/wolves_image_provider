@@ -1,5 +1,5 @@
 <launch>
-    <rosparam command="load" file="$(find wolves_image_provider_v4l)/config/camera_settings.yaml" />
-    <node pkg="wolves_image_provider_v4l" type="wolves_image_provider_v4l_node" name="wolves_image_provider_v4l_node" output="screen">
+    <rosparam command="load" file="$(find wolves_image_provider)/config/camera_settings.yaml" />
+    <node pkg="wolves_image_provider" type="wolves_image_provider_node" name="wolves_image_provider_node" output="screen">
     </node>
 </launch>

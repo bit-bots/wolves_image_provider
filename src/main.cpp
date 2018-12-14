@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
 
 	string camera_name = "camera";
 	ros::param::get("ros_stuff/camera_name", camera_name);
-	boost::shared_ptr<camera_info_manager::CameraInfoManager> cinfo_(new camera_info_manager::CameraInfoManager(camera_nh_, camera_name, "package://wolves_image_provider_v4l/config/" + camera_name + ".yaml"));
+	boost::shared_ptr<camera_info_manager::CameraInfoManager> cinfo_(new camera_info_manager::CameraInfoManager(camera_nh_, camera_name, "package://wolves_image_provider/config/" + camera_name + ".yaml"));
 
 	ros::Rate r(30);
 	int seq = 0;

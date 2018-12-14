@@ -1,7 +1,7 @@
 <package format="2">
-  <name>wolves_image_provider_v4l</name>
+  <name>wolves_image_provider</name>
   <version>1.0.0</version>
-  <description>The wolves_image_provider_v4l package, camera calibrations are placed in the config folder and need to be specified in the camera_settings.yaml (camera_name) configuration file.</description>
+  <description>The wolves_image_provider package, camera calibrations are placed in the config folder and need to be specified in the camera_settings.yaml (camera_name) configuration file.</description>
 
   <maintainer email="5guelden@informatik.uni-hamburg.de">Jasper Güldenstein</maintainer>
 
