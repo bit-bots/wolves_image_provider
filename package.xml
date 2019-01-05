@@ -5,7 +5,7 @@
 
   <maintainer email="5guelden@informatik.uni-hamburg.de">Jasper Güldenstein</maintainer>
 
-  <license>TODO</license>
+  <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <depend>cv_bridge</depend>
@@ -19,7 +19,7 @@
   <export>
     <bitbots_documentation>
       <language>c++</language>
-      <status>unknown</status>
+      <status>stable</status>
     </bitbots_documentation>
   </export>
 </package>
