@@ -17,7 +17,7 @@ camera_v4l:
     autoExposure: 0.5
     autoExposurePriority: 0.0
     absoluteExposure: 0.0977 #0.036714844
-    device: /dev/video1
+    device: /dev/video0
     whiteBalance: 0.769 #0.6
     focus_absolute: 0.0
     focus_relative: 0.0
