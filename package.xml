@@ -4,6 +4,9 @@
   <description>The wolves_image_provider package, camera calibrations are placed in the config folder and need to be specified in the camera_settings.yaml (camera_name) configuration file.</description>
 
   <maintainer email="5guelden@informatik.uni-hamburg.de">Jasper Güldenstein</maintainer>
+  <maintainer email="info@bit-bots.de">Hamburg Bit-Bots</maintainer>
+
+  <author>WF Wolves</author>
 
   <license>BSD</license>
 
