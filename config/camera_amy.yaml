@@ -1,6 +1,6 @@
 image_width: 640
 image_height: 360
-camera_name: camera
+camera_name: camera_amy
 camera_matrix:
   rows: 3
   cols: 3
