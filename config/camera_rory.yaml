@@ -3,8 +3,8 @@ image_height: 360
 camera_name: camera
 camera_matrix:
   rows: 3
-    cols: 3
-    data: [471.590912, 0.000000, 320.861968, 0.000000, 476.067331, 187.300095, 0.000000, 0.000000,1.000000]
+  cols: 3
+  data: [471.590912, 0.000000, 320.861968, 0.000000, 476.067331, 187.300095, 0.000000, 0.000000,1.000000]
 distortion_model: plumb_bob
 distortion_coefficients:
   rows: 1
