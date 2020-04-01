@@ -1,27 +1,27 @@
 ros_stuff:
     image_pub_msg: "image_raw"
-    camera_name: "camera_ROBOT"
+    camera_name: "camera_amy"
 
 camera_v4l:
-    brightness: 0.5
-    contrast: 0.125 #0.5
-    saturation: 0.157 #0.7
-    hue: 0.0
-    auto_white_balance: 0.0
-    red_balance: 0.0
-    blue_balance: 0.0
+    brightness: 0.65
+    contrast: 0.2
+    saturation: 0.3
+    hue: 0.5
+    auto_white_balance: 1.0
+    red_balance: 1.0
+    blue_balance: 1.0
     gamma: 0.40
     exposure: 1.0
-    autogain: 0.0
+    autogain: 1.0
     gain: 0.196 #0.238
     autoExposure: 0.5
-    autoExposurePriority: 0.0
-    absoluteExposure: 0.0977 #0.036714844
+    autoExposurePriority: 1.0
+    absoluteExposure: 0.077 #0.036714844
     device: /dev/video0
     whiteBalance: 0.769 #0.6
     focus_absolute: 0.0
     focus_relative: 0.0
-    focus_auto: 0.0
+    focus_auto: 1.0
     auto_focus_stop: 1.0
     resolution:
        height: 360
